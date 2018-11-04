@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moduł 5. Bootstrap Klasy pomocnicze</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+                <h1>Example text <small>Smaller text</small></h1>
+                <button class="btn btn-primary">Primary</button>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <h1>Gallery</h1>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-2">
+                        <img src="http://i.imgur.com/AGEgF5B.jpg" class="img-responsive" alt="#">
+                    </div>
+                    <div class="col-md-3 col-md-offset-2">
+                        <img src="http://i.imgur.com/Ue2tUMV.jpg" class="img-responsive" alt="#">
+                    </div>
+                    <div class="col-md-3 col-md-offset-2">
+                        <img src="http://i.imgur.com/7Ff7rDB.jpg" class="img-responsive" alt="#">
+                    </div>
+                    <div class="col-md-3 col-md-offset-2">
+                        <img src="http://i.imgur.com/AGEgF5B.jpg" class="img-responsive" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="table">
+            <div class="container">
+                <h2>Table</h2>
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Janusz</td>
+                            <td>Kowalski</td>
+                            <td>janusz@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mateusz</td>
+                            <td>Molibdenowy</td>
+                            <td>matusz@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ryszard</td>
+                            <td>Kowalski</td>
+                            <td>ryszard@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <form>
+                    E-mail:<br>
+                    <input type="email" name="email"><br><br>
+                    Name<br>
+                    <input type="name" name="name"><br><br>
+                    Surname<br>
+                    <input type="surname" name="surname"><br><br>
+                    <button type="submit" class="btn btn-info">Send</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
